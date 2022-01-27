@@ -15,6 +15,18 @@ function repeatStringNumTimes(str, num) {
 repeatStringNumTimes("abc", 3);
 ```
 
+# Intermediate Algorithm 
+## Seek and Destroy
+### You will be provided with an initial array (the first argument in the destroyer function), followed by one or more arguments. Remove all elements from the initial array that are of the same value as these arguments.
+
+```jsx 
+function destroyer(arr,...arg) {
+  return arr.filter(ele=> !arg.includes(ele))
+}
+
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+```
+
 # Functional Programming 
 
 ```jsx 
