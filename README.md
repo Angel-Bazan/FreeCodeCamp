@@ -4,6 +4,18 @@
 
 # Basic Algorithms 
 
+## Convert Celsius to Farenheit 
+### The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.You are given a variable celsius representing a temperature in Celsius. Use the variable fahrenheit already defined and assign it the Fahrenheit temperature equivalent to the given Celsius temperature. Use the algorithm mentioned above to help convert the Celsius temperature to Fahrenheit.
+
+```jsx 
+function convertToF(celsius) {
+  let fahrenheit = celsius * 9/5 + 32;
+  return fahrenheit;
+}
+
+convertToF(30);
+```
+
 ## Repeat a String Repeat a String
 ### Repeat a given string str (first argument) for num times (second argument). Return an empty string if num is not a positive number. For the purpose of this challenge, do not use the built-in .repeat() method.
 
