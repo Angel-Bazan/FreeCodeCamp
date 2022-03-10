@@ -16,6 +16,22 @@ function convertToF(celsius) {
 convertToF(30);
 ```
 
+## Reverse a String
+
+### Reverse the provided string.You may need to turn the string into an array before you can reverse it.Your result must be a string.
+
+```jsx 
+function reverseString(str) {
+  let newStr = ""; 
+  for(let i = str.length - 1 ; i >=0 ; i --){
+    newStr += str[i]
+  }
+  return newStr
+}
+
+reverseString("hello");
+```
+
 ## Repeat a String Repeat a String
 ### Repeat a given string str (first argument) for num times (second argument). Return an empty string if num is not a positive number. For the purpose of this challenge, do not use the built-in .repeat() method.
 
