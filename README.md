@@ -32,6 +32,25 @@ function reverseString(str) {
 reverseString("hello");
 ```
 
+## Find the Longest Word in a String
+### Return the length of the longest word in the provided sentence.Your response should be a number.
+
+```jsx
+function findLongestWordLength(str) {
+  let words = str.split(' '); 
+  let longest = 0; 
+
+  for(let i = 0; i < words.length; i++){
+    if(words[i].length > longest){
+      longest = words[i].length
+    }
+  }
+  return longest 
+}
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
+```
+
 ## Repeat a String Repeat a String
 ### Repeat a given string str (first argument) for num times (second argument). Return an empty string if num is not a positive number. For the purpose of this challenge, do not use the built-in .repeat() method.
 
